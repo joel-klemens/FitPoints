@@ -22,8 +22,8 @@ It can be hard to compete against your friends when you are on different levels 
 
 ## HOW TO USE
 
-##These instructions no longer apply as I no longer have access to school db
-##I have modified the program slightly so that you are able to log in
+## These instructions no longer apply as I no longer have access to school db which was used to store all user data
+## I have modified the program slightly so that you are able to log in
 #### Username: J01 Password: 1234
 
 ->In the file 'Database.py' on line 33-35 you will need to enter your student central log in id for 'dbName' and for 'uName' and you student number for 'passwd'.  I would have left mine in there but for peer review this needs to be anonymous.  You should be able to connect to the school sql server using this.  
