@@ -42,7 +42,7 @@ class Database():
 		attempt_flag = 0
 		while(loop_counter != 3):
 			try:
-				conn = mysql.connector.connect(host="dursley.socs.uoguelph.ca",database=self.db_name,user=self.u_name, password=self.passwd)
+				conn = mysql.connector.connect(host="removed",database=self.db_name,user=self.u_name, password=self.passwd)
 				print("Database message: Successfully connected to database.~")
 				# prepare a cursor object using cursor() method
 				cursor = conn.cursor()
